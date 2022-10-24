@@ -1,7 +1,7 @@
-# Gmail - Electron
+# Outlook - Electron
 
 ## Description
-Electron app using typescript to render Gmail
+Electron app using typescript to render Outlook
 
 ## To Run:
 1. Clone repository
