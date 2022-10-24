@@ -1,9 +1,9 @@
 {
-  "name": "gmail-electron",
-  "productName": "gmail-electron",
-  "version": "0.2.0",
+  "name": "outlook-electron",
+  "productName": "outlook-electron",
+  "version": "0.1.0",
   "description": "",
-  "main": "build/Gmail.js",
+  "main": "build/Outlook.js",
   "scripts": {
     "compile": "tsc",
     "start": "tsc && electron-forge start",
@@ -32,15 +32,15 @@
         {
           "name": "@electron-forge/maker-deb",
           "config": {
-            "name": "Gmail",
+            "name": "Outlook",
             "options": {
-              "name": "gmail",
-              "version": "1.1.0",
-              "productName": "Gmail",
-              "description": "Gmail by Google",
+              "name": "outlook",
+              "version": "1.0.0",
+              "productName": "Outlook",
+              "description": "Outlook by Microsoft",
               "icon": "icons/icon.svg",
               "maintainer": "Mark Vander Lugt",
-              "homepage": "https://github.com/mvanderlugt/gmail-electron"
+              "homepage": "https://github.com/mvanderlugt/outlook-electron"
             }
           }
         }
